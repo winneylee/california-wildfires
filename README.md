@@ -8,10 +8,12 @@ Our goal is to first determine the xxx by looking at the largest fires in the pa
 As depicted in Figure1 below, you can see that xxxx
 
 ![Figure1](./Resources/Figure1)
+(Figure1)
 
-From the model in Figure2, we've attempted to train the data and add xxx algorithm to xxx
+From the model in Figure2, we've applied xxx algorithm to train the data.  From that you can see that the accuracy score is xxx% with the precision at xxx% and the recall at xx%.
 
 ![Figure2](./Resources/Figure2)
+(Figure2)
 
 ## Conclusion
 In summary, by looking at the analyzed data, we can assess that 2022 may be another challenging year for fires in California.  When applying the xxx algorithm, the model shows that xxx.  With the xxx algorithm, it looks as though xxx may predict xxx.
