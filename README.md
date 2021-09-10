@@ -43,18 +43,18 @@ There were four roles to be assumed by the members of our group, which was compr
 ----------
 
 ## Database
+A provisional database was created that includes samples data that mimics the expected final database schema and is tied to our draft machine learning model.
 
 
 ## Machine Learning Model
-As depicted in Figure1 below, you can see that xxxx
+The provisional machine learning model that we created is a draft for the final machine learning model that. This provisional model (1) takes in data from the provisional database shown above and (2) outputs labels for the input data sourced from our datasets.
 
-![Figure1](./Resources/Figure1)
-(Figure1)
+As depicted in Figure 1 below, you can see that xxxx
 
-From the model in Figure2, we've applied xxx algorithm to train the data.  From that you can see that the accuracy score is xxx% with the precision at xxx% and the recall at xx%.
+![Figure 1](./Resources/Figure1)
+(Figure 1)
 
-![Figure2](./Resources/Figure2)
-(Figure2)
+From the model in Figure 2, we've applied xxx algorithm to train the data.  From that you can see that the accuracy score is xxx% with the precision at xxx% and the recall at xx%.
 
-## Conclusion
-In summary, by looking at the analyzed data, we can assess that 2022 may be another challenging year for fires in California.  When applying the xxx algorithm, the model shows that xxx.  With the xxx algorithm, it looks as though xxx may predict xxx.
+![Figure 2](./Resources/Figure2)
+(Figure 2)
