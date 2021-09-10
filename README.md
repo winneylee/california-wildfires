@@ -2,6 +2,8 @@
 
 ![California Wildfire](Resources/CaliforniaWildfires.jpg)
 
+<img src="Resources/CaliforniaWildfires.jpg" alt="CaliforniaWildfires" width="200"/>
+
 ## Topic
 The focus of this project will be on California wildfires.
 
