@@ -24,9 +24,12 @@ The above dataset contains geographical information such as latitude and longitu
 
 ### Team Member Roles
 There were four roles to be assumed by the members of our group, which was comprised of 5 members -- Jinfang Li, Wendy Mudzinski, Stephen Tan, Rachel Tsuchiyama, and Cassie Xu. The roles and descriptions for Week 1 are below:
-- Square
-- Triangle - *creates mockup of a machine learning
+- Square - *responsible for the GitHub repository*
+    - Stephen
+- Triangle - *creates mockup of a machine learning model*
+    - Rachel, Cassie
 - Circle - *creates mockup of a database with a set of sample data*
+    - Jinfang, Wendy
 - X - *decides which technologies to use for each step of the project* 
     - No one assumed this role since we all contributed equally
 
