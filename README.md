@@ -4,6 +4,14 @@ As the final project for Data Analytics boot camp, our team was made up of these
 ## High-Level Overview
 Our goal is to first determine the xxx by looking at the largest fires in the past xxx years.  From this data we can see that there are some areas that are more susceptible to fire danger.  In these areas, it's important to share fire awareness.  Also it helps to clear out dead leaves and brush and making sure campfires are put out properly are simple ideas of prevention.  Unfortunately there are always some unexpected incidents that may arise, for example, the lighting of fireworks and random lightning strikes.  However, in looking at the data, we can utilize a model to help predict if/when our next fires may occur.  This way firefighters can take a more proactive approach in combating issues that may occur.
 
+
+## Goal
+Create a machine learning model to predict the next California county/counties affected by wildfires
+
+## Datasets
+https://prism.oregonstate.edu/recent/
+https://www.kaggle.com/ananthu017/california-wildfire-incidents-20132020
+
 ## xxx what we're trying to accomplish
 As depicted in Figure1 below, you can see that xxxx
 
