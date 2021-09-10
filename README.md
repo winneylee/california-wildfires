@@ -10,6 +10,9 @@ This topic was chosen due to gauge what we may experience in the next upcoming f
 Some of the variables that can cause fires include weather patterns, fuel/environmental factors, drought/water levels, the number of fire stations/resources available at the time of an incident, and preventative measures.
 
 ## Questions We Hope to Answer
+- When and where could the next California wildfire be?
+- How does temperature play a role in fire season?
+- Are there specific counties that are more prone to wildfires?
 
 ## High-Level Overview
 Our goal is to first determine the xxx by looking at the largest fires in the past xxx years.  From this data we can see that there are some areas that are more susceptible to fire danger.  In these areas, it's important to share fire awareness.  Also it helps to clear out dead leaves and brush and making sure campfires are put out properly are simple ideas of prevention.  Unfortunately there are always some unexpected incidents that may arise, for example, the lighting of fireworks and random lightning strikes.  However, in looking at the data, we can utilize a model to help predict if/when our next fires may occur.  This way firefighters can take a more proactive approach in combating issues that may occur.
@@ -37,7 +40,10 @@ There were four roles to be assumed by the members of our group, which was compr
 
 ----------
 
-## xxx what we're trying to accomplish
+## Database
+
+
+## Machine Learning Model
 As depicted in Figure1 below, you can see that xxxx
 
 ![Figure1](./Resources/Figure1)
