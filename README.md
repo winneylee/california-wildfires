@@ -53,10 +53,7 @@ A provisional database was created that includes samples data that mimics the ex
 ## Machine Learning Model
 The provisional machine learning model that we created is a draft for the final machine learning model that. This provisional model (1) takes in data from the provisional database shown above and (2) outputs labels for the input data sourced from our datasets.
 
-As depicted in Figure 1 below, you can see that xxxx
-
-![Figure 1](./Resources/Figure1)
-(Figure 1)
+![Provisional Model](./Resources/model.jpg)
 
 From the model in Figure 2, we've applied xxx algorithm to train the data.  From that you can see that the accuracy score is xxx% with the precision at xxx% and the recall at xx%.
 
