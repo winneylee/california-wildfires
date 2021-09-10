@@ -1,9 +1,7 @@
 # California Wildfires Analysis
 
-![California Wildfire](Resources/CaliforniaWildfires.jpg)
-
 <p align="center">
-    <img src="Resources/CaliforniaWildfires.jpg" alt="CaliforniaWildfires" width="200"/>
+    <img src="Resources/CaliforniaWildfires.jpg" alt="CaliforniaWildfires" width="500"/>
 </p>
 
 ## Topic
