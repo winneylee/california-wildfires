@@ -20,6 +20,7 @@ Some of the variables that can cause fires include weather patterns, fuel/enviro
 - When and where could the next California wildfire be?
 - How does temperature play a role in fire season?
 - Are there specific counties that are more prone to wildfires?
+- What's the main factor to cause the wildfire?
 
 ## Datasets
 [Kaggle Wildfire Data (2013-2020)](https://www.kaggle.com/ananthu017/california-wildfire-incidents-20132020)<br>
