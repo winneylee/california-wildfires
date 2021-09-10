@@ -51,7 +51,7 @@ A provisional database was created that includes samples data that mimics the ex
 
 
 ## Machine Learning Model
-The provisional machine learning model that we created is a draft for the final machine learning model that. This provisional model (1) takes in data from the provisional database, which includes data from the California Wildfires (2013-2020) dataset shown above and (2) outputs labels for the input data sourced from our datasets.
+The provisional machine learning model that we created is a draft for the final machine learning model that. This provisional model (1) takes in data from the provisional database, which includes data from the California Wildfires (2013-2020) dataset shown above and (2) outputs county labels for the wildfire input data sourced from our datasets.
 
 ![Provisional Model](./Resources/model.jpg)
 
