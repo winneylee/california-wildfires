@@ -48,8 +48,7 @@ There were four roles to be assumed by the members of our group, which was compr
 
 ## Database
 A provisional database was created that includes samples data that mimics the expected final database schema and is tied to our draft machine learning model.
-
-
+o
 ## Machine Learning Model
 The provisional machine learning model (*as shown in* fire_analysis.ipynb) that we created is a draft for the final machine learning model that. This provisional model (1) takes in data from the provisional database, which includes data from the California Wildfires (2013-2020) dataset shown above and (2) outputs county labels for the wildfire input data sourced from our datasets.
 
