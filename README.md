@@ -47,14 +47,10 @@ There were four roles to be assumed by the members of our group, which was compr
 ----------
 
 ## Database
-A provisional database was created that includes samples data that mimics the expected final database schema and is tied to our draft machine learning model.
-o
+A provisional database was created that includes samples data that mimics the expected final database schema and is tied to our draft machine learning model. The image below shows the initial dataframe that was created with the cleaned California Wildfires (2013-2020) dataset.
+![Provisional DataFrame](./Resources/fire_data.jpg)
+
 ## Machine Learning Model
-The provisional machine learning model (*as shown in* fire_analysis.ipynb) that we created is a draft for the final machine learning model that. This provisional model (1) takes in data from the provisional database, which includes data from the California Wildfires (2013-2020) dataset shown above and (2) outputs county labels for the wildfire input data sourced from our datasets.
+The provisional machine learning model (*as shown in* fire_analysis.ipynb) that we created is a draft for the final machine learning model that. This provisional model (1) takes in data from the provisional database, which includes data from the California Wildfires (2013-2020) dataset shown above and (2) outputs county labels for the wildfire input data sourced from our datasets. The trained model came out at 98.31% accuracy.
 
 ![Provisional Model](./Resources/model.jpg)
-
-From the model in Figure 2, we've applied xxx algorithm to train the data.  From that you can see that the accuracy score is xxx% with the precision at xxx% and the recall at xx%.
-
-![Figure 2](./Resources/Figure2)
-(Figure 2)
