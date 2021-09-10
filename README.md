@@ -1,8 +1,6 @@
 # California Wildfires Analysis
 
-<p align="center">
-  <img width="200" height="100" src="https://www.fresnobee.com/latest-news/oewnev/picture253495194/alternates/LANDSCAPE_1140/CaliforniaWildfires.JPG">
-</p>
+![California Wildfire](Resources/CaliforniaWildfires.jpg)
 
 ## Topic
 The focus of this project will be on California wildfires.
