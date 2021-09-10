@@ -21,19 +21,14 @@ Some of the variables that can cause fires include weather patterns, fuel/enviro
 - How does temperature play a role in fire season?
 - Are there specific counties that are more prone to wildfires?
 
-
-
 ## Datasets
 [Kaggle Wildfire Data (2013-2020)](https://www.kaggle.com/ananthu017/california-wildfire-incidents-20132020)<br>
 The above link has a dataset that contains geographical information such as latitude and longitude, county, acres burned, [fire] engines, start and extinguished dates.
 
-[Rainfall and Temperature Data (1981-2021)](https://prism.oregonstate.edu/recent/)<br>
-This website has a dataset that includes information on monthly precipiration as well as mean/min/max temperature data
-
 [Precipitation and Temperature Data (1901-2021)](https://www.ncdc.noaa.gov/cag/county/mapping/4/pcp/201902/1/value)<br>
-The hyperlink above also includes a dataset on monthly precipiration as well as mean/min/max temperature data
+The hyperlink above includes a dataset on monthly precipiration as well as mean/min/max temperature data
 
-### Team Member Roles
+## Team Member Roles
 There were four roles to be assumed by the members of our group, which was comprised of 5 members -- Jinfang Li, Wendy Mudzinski, Stephen Tan, Rachel Tsuchiyama, and Cassie Xu. The roles and descriptions for Week 1 are below:
 - **Square** - *responsible for the GitHub repository*
     - Stephen
