@@ -33,7 +33,7 @@ The hyperlink above includes a dataset on monthly precipitation as well as mean/
 There were four roles to be assumed by the members of our group, which was comprised of 5 members -- Jinfang Li, Wendy Mudzinski, Stephen Tan, Rachel Tsuchiyama, and Cassie Xu. The roles and descriptions for this project are:
 
 **Week One**
-- **Square** - *Continue with analysis and create visuals to accompany the data story.*
+- **Square** - *The team member in the square role will be responsible for the repository.*
     - Stephen
 - **Triangle** - *Transform the mockup database into a full database that integrates with your work*
     - Rachel,Cassie
