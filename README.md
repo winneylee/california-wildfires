@@ -43,7 +43,14 @@ There were four roles to be assumed by the members of our group, which was compr
     - No one assumed this role since we all contributed equally
 
 **Week Two**
-
+- **Square** - *Refine the machine learning model you'll be using (train and test).*
+    - Cassie
+- **Triangle** - *Transform the mockup database into a full database that integrates with your work.*
+    - Rachel
+- **Circle** - *Continue with analysis and create visuals to accompany the data story.*
+    - Stphen
+- **X** - *Outline and begin work on a dashboard to house your final project. Check and test the work completed against the rubric* 
+    - Jinfang, Wendy
 ----------
 
 ## Database
