@@ -48,9 +48,10 @@ A provisional database was created that includes samples data that mimics the ex
 
 ## Machine Learning Model
 The provisional machine learning model (*as shown in* fire_analysis.ipynb) that we created is a draft for the final machine learning model that. This provisional model (1) takes in data from the provisional database, which includes data from the California Wildfires (2013-2020) dataset shown above and (2) outputs county labels for the wildfire input data sourced from our datasets. The trained model came out at 98.31% accuracy.
--Description of preliminary data preprocessing
--Description of preliminary feature engineering and preliminary feature selection, including the decision-making process
--Description of how data was split into training and testing sets
--Explanation of model choice, including limitations and benefits
+
+- Description of preliminary data preprocessing
+- Description of preliminary feature engineering and preliminary feature selection, including the decision-making process
+- Description of how data was split into training and testing sets
+- Explanation of model choice, including limitations and benefits
 
 ![Provisional Model](./Resources/model.jpg)
