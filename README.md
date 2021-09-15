@@ -42,6 +42,8 @@ There were four roles to be assumed by the members of our group, which was compr
 - **X** - *decides which technologies to use for each step of the project* 
     - No one assumed this role since we all contributed equally
 
+**Week Two**
+
 ----------
 
 ## Database
