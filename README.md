@@ -31,10 +31,10 @@ The hyperlink above includes a dataset on monthly precipiration as well as mean/
 
 ## Team Member Roles
 There were four roles to be assumed by the members of our group, which was comprised of 5 members -- Jinfang Li, Wendy Mudzinski, Stephen Tan, Rachel Tsuchiyama, and Cassie Xu. The roles and descriptions for Week 1 are below:
-- **Square** - *responsible for the GitHub repository*
-    - Stephen
-- **Triangle** - *creates mockup of a machine learning model*
-    - Rachel, Cassie
+- **Square** - *Refine the machine learning model you'll be using (train and test).*
+    - Cassie
+- **Triangle** - *Transform the mockup database into a full database that integrates with your work.*
+    - Rachel
 - **Circle** - *creates mockup of a database with a set of sample data*
     - Jinfang, Wendy
 - **X** - *decides which technologies to use for each step of the project* 
