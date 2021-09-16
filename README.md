@@ -48,7 +48,7 @@ There were four roles to be assumed by the members of our group, which was compr
 - **Triangle** - *Transform the mockup database into a full database that integrates with your work.*
     - Rachel
 - **Circle** - *Continue with analysis and create visuals to accompany the data story.*
-    - Stphen
+    - Stephen
 - **X** - *Outline and begin work on a dashboard to house your final project. Check and test the work completed against the rubric* 
     - Jinfang, Wendy
 ----------
