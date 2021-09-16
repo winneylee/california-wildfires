@@ -5,7 +5,7 @@ console.log("working");
 let map = L.map('mapid').setView([40.7, -94.5], 4);
 
 //  Add a marker to the map for Berkeley, California.
-L.circleMarker([122.2730, 37.8715], {
+let marker = L.circleMarker([122.2730, 37.8715], {
     color: 'black',
     fillcolor: 'lightyellow',
     radius: 300
