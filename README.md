@@ -58,11 +58,19 @@ A provisional database was created that includes sample data that mimics the exp
 ![Provisional DataFrame](./Resources/fire_data.jpg)
 
 ## Machine Learning Model
+**Week One**
 The provisional machine learning model (*as shown in* fire_analysis.ipynb) that we created is a draft for the final machine learning model. This provisional model (1) takes in data from the provisional database, which includes data from the Kaggle Wildfires (2013-2020) dataset shown above and (2) outputs county labels for the wildfire input data sourced from our datasets. The trained model came out at 98.31% accuracy.
 
+![Provisional Model](./Resources/model.jpg)
+
+**Week Two**
 - Description of preliminary data preprocessing
 - Description of preliminary feature engineering and preliminary feature selection, including the decision-making process
 - Description of how data was split into training and testing sets
 - Explanation of model choice, including limitations and benefits
 
-![Provisional Model](./Resources/model.jpg)
+### Multiple Neuron Neural Network
+Advantages to adding neurons to our hidden layer in a neural network:
+-There is a distributed effort to find optimal weights—faster.
+-Each neuron can focus on different features to identify nonlinear effects—smarter.
+-It is less likely to fixate on complex variables—more robust.
