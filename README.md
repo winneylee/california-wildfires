@@ -8,7 +8,7 @@
 The focus of this project will be on California wildfires.
 
 ## Why Wildfires?
-This topic was chosen to gauge what we may experience in the next upcoming fire season. As the summer comes to a close, it's important to analyze the past fire data and current precipitation measurements to get a hollistic view of what we may experience in the next upcoming fire season.
+This topic was chosen to gauge what we may experience in the next upcoming fire season. As the summer comes to a close, it's important to analyze the past fire data and current precipitation measurements and temperature to get a hollistic view of what we may experience in the next upcoming fire season.
 
 ## High-Level Overview
 Our goal is to first determine the most susceptible wildfire areas by looking at the largest fires in recent years. From these data, we can see that there are some areas that are more susceptible to fire danger. In these areas, it's important to share fire awareness. Everyone needs to understand that it's a communal effort that makes a difference.  It's really important to clear out dead leaves and brush, for example. Another idea is to make sure campfires are put out properly.  These are simple yet necessary ideas on prevention. Unfortunately, there are always some unexpected incidents that may arise, for example, the lighting fireworks and random lightning strikes. However, in looking at the data, we can utilize a model to help predict if/when our next fires may occur. This way firefighters can take a more proactive approach in combating issues that may occur.
@@ -50,7 +50,7 @@ There were four roles to be assumed by the members of our group, which was compr
 - **Circle** - *Continue with analysis and create visuals to accompany the data story.*
     - Stephen
 - **X** - *Outline and begin work on a dashboard to house your final project. Check and test the work completed against the rubric* 
-    - Jinfang, Wendy
+    - Wendy, Jinfang
 ----------
 
 ## Database
@@ -61,12 +61,8 @@ A provisional database was created that includes sample data that mimics the exp
 The provisional machine learning model (*as shown in* fire_analysis.ipynb) that we created is a draft for the final machine learning model. This provisional model (1) takes in data from the provisional database, which includes data from the Kaggle Wildfires (2013-2020) dataset shown above and (2) outputs county labels for the wildfire input data sourced from our datasets. The trained model came out at 98.31% accuracy.
 
 - Description of preliminary data preprocessing
-The feature data was scaled using the keras MinMaxScaler. The counties, which are our labels, were converted using pd.get_dummies. The climate data was also scaled using the MinMaxScaler. The county names were edited to match the names in the fire dataset.
 - Description of preliminary feature engineering and preliminary feature selection, including the decision-making process
-We chose the features that we considered most pertinent to make wildfire predictions. We extracted the fire start location, date, and acres burned. Then, we found temperature and precipitation statistics for each county. We decided that these features would help our model predict where and when the next wildfire will be.
 - Description of how data was split into training and testing sets
-80% of the data was set aside for training the model, while 20% was used for testing the model. The data was split with train_test_split.
 - Explanation of model choice, including limitations and benefits
-We chose a dense neural network as our machine learning model due to the number of features we are considering. The model is able to process these features and have a muli-categorical output, which are our encoded county labels.
 
 ![Provisional Model](./Resources/model.jpg)
