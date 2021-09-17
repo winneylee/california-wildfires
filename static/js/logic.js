@@ -2,13 +2,13 @@
 console.log("working");
 
 // Create the map object with a center and zoom level.
-let map = L.map('mapid').setView([122.2730, 37.8715], 6);
+let map = L.map('mapid').setView([37.871666, -122.272781], 12);
 
 //  Add a marker to the map for Berkeley, California.
-let marker = L.circleMarker([122.2730, 37.8715], {
+let marker = L.circleMarker([37.871666, -122.272781], {
     color: 'black',
     fillcolor: 'lightyellow',
-    radius: 30
+    radius: 70
  }).addTo(map);
 
 // Adding the tileLayer code for the background of the map
