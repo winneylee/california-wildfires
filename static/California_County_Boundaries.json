@@ -1,0 +1,550 @@
+{
+  "currentVersion" : 10.81, 
+  "id" : 0, 
+  "name" : "cnty19_1", 
+  "type" : "Feature Layer", 
+  "serviceItemId" : "8713ced9b78a4abb97dc130a691a8695", 
+  "cacheMaxAge" : 30, 
+  "displayField" : "COUNTY_NAME", 
+  "description" : "cnty19_1_basicplus", 
+  "copyrightText" : "", 
+  "defaultVisibility" : true, 
+  "editingInfo" : {
+    "lastEditDate" : 1614196951437
+  }, 
+  "relationships" : [], 
+  "isDataVersioned" : false, 
+  "hasContingentValuesDefinition" : false, 
+  "supportsAppend" : true, 
+  "supportsCalculate" : true, 
+  "supportsASyncCalculate" : true, 
+  "supportsTruncate" : false, 
+  "supportsAttachmentsByUploadId" : true, 
+  "supportsAttachmentsResizing" : true, 
+  "supportsRollbackOnFailureParameter" : true, 
+  "supportsStatistics" : true, 
+  "supportsExceedsLimitStatistics" : true, 
+  "supportsAdvancedQueries" : true, 
+  "supportsValidateSql" : true, 
+  "supportsCoordinatesQuantization" : true, 
+  "supportsLayerOverrides " : true, 
+  "supportsTilesAndBasicQueriesMode" : true, 
+  "supportsFieldDescriptionProperty" : true, 
+  "supportsQuantizationEditMode" : true, 
+  "supportsApplyEditsWithGlobalIds" : true, 
+  "supportsMultiScaleGeometry" : true, 
+  "supportsReturningQueryGeometry" : true, 
+  "hasGeometryProperties" : true, 
+  "geometryProperties" : 
+  {
+    "shapeAreaFieldName" : "Shape__Area", 
+    "shapeLengthFieldName" : "Shape__Length", 
+    "units" : "esriMeters"
+  }, 
+  "advancedQueryCapabilities" : {
+    "supportsPagination" : true, 
+    "supportsPaginationOnAggregatedQueries" : true, 
+    "supportsQueryRelatedPagination" : true, 
+    "supportsQueryWithDistance" : true, 
+    "supportsReturningQueryExtent" : true, 
+    "supportsStatistics" : true, 
+    "supportsOrderBy" : true, 
+    "supportsDistinct" : true, 
+    "supportsQueryWithResultType" : true, 
+    "supportsSqlExpression" : true, 
+    "supportsAdvancedQueryRelated" : true, 
+    "supportsCountDistinct" : true, 
+    "supportsPercentileStatistics" : true, 
+    "supportsLod" : true, 
+    "supportsQueryWithLodSR" : false, 
+    "supportedLodTypes" : [
+      "geohash"
+    ], 
+    "supportsReturningGeometryCentroid" : true, 
+    "supportsReturningGeometryProperties" : true, 
+    "supportsQueryWithDatumTransformation" : true, 
+    "supportsHavingClause" : true, 
+    "supportsOutFieldSQLExpression" : true, 
+    "supportsMaxRecordCountFactor" : true, 
+    "supportsTopFeaturesQuery" : true, 
+    "supportsDisjointSpatialRel" : true, 
+    "supportsQueryWithCacheHint" : true, 
+    "supportsQueryAnalytic" : true
+  }, 
+  "useStandardizedQueries" : true, 
+  "geometryType" : "esriGeometryPolygon", 
+  "minScale" : 0, 
+  "maxScale" : 0, 
+  "extent" : {
+    "xmin" : -13859964.867153635, 
+    "ymin" : 3819065.0495318305, 
+    "xmax" : -12634526.338963382, 
+    "ymax" : 5171247.8741954705, 
+    "spatialReference" : {
+      "wkid" : 102100, 
+      "latestWkid" : 3857
+    }
+  }, 
+  "drawingInfo":{"renderer":{"type":"simple","symbol":{"color":[130,130,130,0],"outline":{"color":[130,130,130,255],"width":1,"type":"esriSLS","style":"esriSLSSolid"},"type":"esriSFS","style":"esriSFSSolid"}},"transparency":0}, 
+  "allowGeometryUpdates" : true, 
+  "hasAttachments" : false, 
+  "htmlPopupType" : "esriServerHTMLPopupTypeAsHTMLText", 
+  "hasMetadata" : true, 
+  "hasM" : false, 
+  "hasZ" : false, 
+  "objectIdField" : "OBJECTID", 
+  "uniqueIdField" : 
+  {
+    "name" : "OBJECTID", 
+    "isSystemMaintained" : true
+  }, 
+  "globalIdField" : "GlobalID", 
+  "typeIdField" : "", 
+  "fields" : [
+    {
+      "name" : "OBJECTID", 
+      "type" : "esriFieldTypeOID", 
+      "alias" : "OBJECTID", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : false, 
+      "editable" : false, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "COUNTY_NAME", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "COUNTY_NAME", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 40, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : 
+      {
+        "type" : "codedValue", 
+        "name" : "FRAP_COUNTYNAME", 
+        "codedValues" : [
+          {
+            "name" : "Alameda County", 
+            "code" : "Alameda"
+          }, 
+          {
+            "name" : "Alpine County", 
+            "code" : "Alpine"
+          }, 
+          {
+            "name" : "Amador County", 
+            "code" : "Amador"
+          }, 
+          {
+            "name" : "Butte County", 
+            "code" : "Butte"
+          }, 
+          {
+            "name" : "Calaveras County", 
+            "code" : "Calaveras"
+          }, 
+          {
+            "name" : "Colusa County", 
+            "code" : "Colusa"
+          }, 
+          {
+            "name" : "Contra Costa County", 
+            "code" : "Contra Costa"
+          }, 
+          {
+            "name" : "Del Norte County", 
+            "code" : "Del Norte"
+          }, 
+          {
+            "name" : "El Dorado County", 
+            "code" : "El Dorado"
+          }, 
+          {
+            "name" : "Fresno County", 
+            "code" : "Fresno"
+          }, 
+          {
+            "name" : "Glenn County", 
+            "code" : "Glenn"
+          }, 
+          {
+            "name" : "Humboldt County", 
+            "code" : "Humboldt"
+          }, 
+          {
+            "name" : "Imperial County", 
+            "code" : "Imperial"
+          }, 
+          {
+            "name" : "Inyo County", 
+            "code" : "Inyo"
+          }, 
+          {
+            "name" : "Kern County", 
+            "code" : "Kern"
+          }, 
+          {
+            "name" : "Kings County", 
+            "code" : "Kings"
+          }, 
+          {
+            "name" : "Lake County", 
+            "code" : "Lake"
+          }, 
+          {
+            "name" : "Lassen County", 
+            "code" : "Lassen"
+          }, 
+          {
+            "name" : "Los Angeles County", 
+            "code" : "Los Angeles"
+          }, 
+          {
+            "name" : "Madera County", 
+            "code" : "Madera"
+          }, 
+          {
+            "name" : "Marin County", 
+            "code" : "Marin"
+          }, 
+          {
+            "name" : "Mariposa County", 
+            "code" : "Mariposa"
+          }, 
+          {
+            "name" : "Mendocino County", 
+            "code" : "Mendocino"
+          }, 
+          {
+            "name" : "Merced County", 
+            "code" : "Merced"
+          }, 
+          {
+            "name" : "Modoc County", 
+            "code" : "Modoc"
+          }, 
+          {
+            "name" : "Mono County", 
+            "code" : "Mono"
+          }, 
+          {
+            "name" : "Monterey County", 
+            "code" : "Monterey"
+          }, 
+          {
+            "name" : "Napa County", 
+            "code" : "Napa"
+          }, 
+          {
+            "name" : "Nevada County", 
+            "code" : "Nevada"
+          }, 
+          {
+            "name" : "Orange County", 
+            "code" : "Orange"
+          }, 
+          {
+            "name" : "Placer County", 
+            "code" : "Placer"
+          }, 
+          {
+            "name" : "Plumas County", 
+            "code" : "Plumas"
+          }, 
+          {
+            "name" : "Riverside County", 
+            "code" : "Riverside"
+          }, 
+          {
+            "name" : "Sacramento County", 
+            "code" : "Sacramento"
+          }, 
+          {
+            "name" : "San Benito County", 
+            "code" : "San Benito"
+          }, 
+          {
+            "name" : "San Bernardino County", 
+            "code" : "San Bernardino"
+          }, 
+          {
+            "name" : "San Diego County", 
+            "code" : "San Diego"
+          }, 
+          {
+            "name" : "San Francisco County", 
+            "code" : "San Francisco"
+          }, 
+          {
+            "name" : "San Joaquin County", 
+            "code" : "San Joaquin"
+          }, 
+          {
+            "name" : "San Luis Obispo County", 
+            "code" : "San Luis Obispo"
+          }, 
+          {
+            "name" : "San Mateo County", 
+            "code" : "San Mateo"
+          }, 
+          {
+            "name" : "Santa Barbara County", 
+            "code" : "Santa Barbara"
+          }, 
+          {
+            "name" : "Santa Clara County", 
+            "code" : "Santa Clara"
+          }, 
+          {
+            "name" : "Santa Cruz County", 
+            "code" : "Santa Cruz"
+          }, 
+          {
+            "name" : "Shasta County", 
+            "code" : "Shasta"
+          }, 
+          {
+            "name" : "Sierra County", 
+            "code" : "Sierra"
+          }, 
+          {
+            "name" : "Siskiyou County", 
+            "code" : "Siskiyou"
+          }, 
+          {
+            "name" : "Solano County", 
+            "code" : "Solano"
+          }, 
+          {
+            "name" : "Sonoma County", 
+            "code" : "Sonoma"
+          }, 
+          {
+            "name" : "Stanislaus County", 
+            "code" : "Stanislaus"
+          }, 
+          {
+            "name" : "Sutter County", 
+            "code" : "Sutter"
+          }, 
+          {
+            "name" : "Tehama County", 
+            "code" : "Tehama"
+          }, 
+          {
+            "name" : "Trinity County", 
+            "code" : "Trinity"
+          }, 
+          {
+            "name" : "Tulare County", 
+            "code" : "Tulare"
+          }, 
+          {
+            "name" : "Tuolumne County", 
+            "code" : "Tuolumne"
+          }, 
+          {
+            "name" : "Ventura County", 
+            "code" : "Ventura"
+          }, 
+          {
+            "name" : "Yolo County", 
+            "code" : "Yolo"
+          }, 
+          {
+            "name" : "Yuba County", 
+            "code" : "Yuba"
+          }
+        ]
+      }, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "COUNTY_ABBREV", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "COUNTY_ABBREV", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 3, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "COUNTY_NUM", 
+      "type" : "esriFieldTypeSmallInteger", 
+      "alias" : "COUNTY_NUM", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "COUNTY_CODE", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "COUNTY_CODE", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 2, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "COUNTY_FIPS", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "COUNTY_FIPS", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 3, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "ISLAND", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "ISLAND", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 20, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : 
+      {
+        "type" : "codedValue", 
+        "name" : "FRAP_ISLANDTYPE2", 
+        "codedValues" : [
+          {
+            "name" : "Channel Islands", 
+            "code" : "Channel Islands"
+          }, 
+          {
+            "name" : "Farallon Islands", 
+            "code" : "Farallon Islands"
+          }, 
+          {
+            "name" : "Bay Islands", 
+            "code" : "Bay Islands"
+          }, 
+          {
+            "name" : "Other Coastal Islands (not in 24k dataset)", 
+            "code" : "Coastal Islands"
+          }, 
+          {
+            "name" : "Port of Los Angeles (Long Beach Harbor etc)", 
+            "code" : "Port of Los Angeles"
+          }, 
+          {
+            "name" : "Coastal Islands from 24k dataset", 
+            "code" : "Coastal Islands 24k"
+          }
+        ]
+      }, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Shape__Area", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Shape__Area", 
+      "sqlType" : "sqlTypeDouble", 
+      "nullable" : true, 
+      "editable" : false, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Shape__Length", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Shape__Length", 
+      "sqlType" : "sqlTypeDouble", 
+      "nullable" : true, 
+      "editable" : false, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "GlobalID", 
+      "type" : "esriFieldTypeGlobalID", 
+      "alias" : "GlobalID", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 38, 
+      "nullable" : false, 
+      "editable" : false, 
+      "domain" : null, 
+      "defaultValue" : "NEWID() WITH VALUES"
+    }
+  ], 
+  "indexes" : [
+    {
+      "name" : "PK__CALIFORN__F4B70D85165B03E2", 
+      "fields" : "OBJECTID", 
+      "isAscending" : true, 
+      "isUnique" : true, 
+      "description" : ""
+    }, 
+    {
+      "name" : "user_9659.CALIFORNIA_COUNTY_BOUNDARIES_CNTY19_1_Shape_sidx", 
+      "fields" : "Shape", 
+      "isAscending" : true, 
+      "isUnique" : false, 
+      "description" : ""
+    }, 
+    {
+      "name" : "Shape__Area_Index", 
+      "fields" : "Shape__Area", 
+      "isAscending" : true, 
+      "isUnique" : false, 
+      "description" : ""
+    }, 
+    {
+      "name" : "Shape__Length_Index", 
+      "fields" : "Shape__Length", 
+      "isAscending" : true, 
+      "isUnique" : false, 
+      "description" : ""
+    }, 
+    {
+      "name" : "GlobalID_Index", 
+      "fields" : "GlobalID", 
+      "isAscending" : false, 
+      "isUnique" : true, 
+      "description" : ""
+    }
+  ], 
+  "dateFieldsTimeReference" : {
+    "timeZone" : "UTC", 
+    "respectsDaylightSaving" : false
+  }, 
+  "preferredTimeReference" : null, 
+  "types" : [], 
+  "templates" : [
+    {
+      "name" : "cnty19_1", 
+      "description" : "", 
+      "drawingTool" : "esriFeatureEditToolPolygon", 
+      "prototype" : {
+        "attributes" : {
+          "COUNTY_FIPS" : null, 
+          "ISLAND" : null, 
+          "COUNTY_NAME" : null, 
+          "COUNTY_ABBREV" : null, 
+          "COUNTY_NUM" : null, 
+          "COUNTY_CODE" : null
+        }
+      }
+    }
+  ], 
+  "supportedQueryFormats" : "JSON, geoJSON, PBF", 
+  "supportedAppendFormats" : "sqlite,gpkg,shapefile,filegdb,featureCollection,geojson,csv,excel", 
+  "supportedExportFormats" : "csv,shapefile,sqlite,gpkg,filegdb,featureCollection,geojson,excel", 
+  "supportedContingentValuesFormats" : "JSON, PBF", 
+  "hasStaticData" : true, 
+  "maxRecordCount" : 2000, 
+  "standardMaxRecordCount" : 4000, 
+  "standardMaxRecordCountNoGeometry" : 32000, 
+  "tileMaxRecordCount" : 4000, 
+  "maxRecordCountFactor" : 1, 
+  "capabilities" : "Query,Extract,Sync"
+}
