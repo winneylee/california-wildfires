@@ -72,6 +72,6 @@ The provisional machine learning model (*as shown in* fire_analysis.ipynb) that 
 ### Multiple Neuron Neural Network
 Advantages to adding neurons to our hidden layer in a neural network:
 
--There is a distributed effort to find optimal weights—faster.
--Each neuron can focus on different features to identify nonlinear effects—smarter.
--It is less likely to fixate on complex variables—more robust.
+- There is a distributed effort to find optimal weights—faster.
+- Each neuron can focus on different features to identify nonlinear effects—smarter.
+- It is less likely to fixate on complex variables—more robust.
