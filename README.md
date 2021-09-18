@@ -65,6 +65,7 @@ The provisional machine learning model (*as shown in* fire_analysis.ipynb) that 
 
 **Week Two**
 - Description of preliminary data preprocessing
+encode our categorical variables using Scikit-Learn's OneHotEncoder class.
 - Description of preliminary feature engineering and preliminary feature selection, including the decision-making process
 - Description of how data was split into training and testing sets
 - Explanation of model choice, including limitations and benefits
