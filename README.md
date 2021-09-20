@@ -64,14 +64,20 @@ The provisional machine learning model (*as shown in* fire_analysis.ipynb) that 
 ![Provisional Model](./Resources/model.jpg)
 
 **Week Two**
-- Description of preliminary data preprocessing
-- Description of preliminary feature engineering and preliminary feature selection, including the decision-making process
-- Description of how data was split into training and testing sets
-- Explanation of model choice, including limitations and benefits
 
-### Multiple Neuron Neural Network
+- 1 Description of preliminary data preprocessing
+Data clean up, handle missing value
+encode our categorical variables using Scikit-Learn's OneHotEncoder class.
+- 2 Description of preliminary feature engineering and preliminary feature selection, including the decision-making process
+preliminary feature engineering: transformation DataFrame
+preliminary feature selection: drop the measurementID & Location ID because they are just identified ID without useful information
+- 3 Description of how data was split into training and testing sets
+- 4 Explanation of model choice, including limitations and benefits
+### Benefits of Multiple Neuron Neural Network
 Advantages to adding neurons to our hidden layer in a neural network:
-
 - There is a distributed effort to find optimal weights—faster.
 - Each neuron can focus on different features to identify nonlinear effects—smarter.
 - It is less likely to fixate on complex variables—more robust.
+
+### Limitation of Multiple Neuron Neural Network
+The neurons to our neural network model can't been always use the maximum number because Overfitting and computation resurces. Additionally, a neural network model with a large number of neurons requires equally large training dataset—training a large neural network requires more data, more epochs, and more time.
