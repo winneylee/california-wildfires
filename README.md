@@ -65,14 +65,18 @@ The provisional machine learning model (*as shown in* fire_analysis.ipynb) that 
 
 **Week Two**
 
-- 1 Description of preliminary data preprocessing
+- 1). Description of preliminary data preprocessing
+-
 Data clean up, handle missing value
 encode our categorical variables using Scikit-Learn's OneHotEncoder class.
-- 2 Description of preliminary feature engineering and preliminary feature selection, including the decision-making process
+
+- 2). Description of preliminary feature engineering and preliminary feature selection, including the decision-making process
+
 preliminary feature engineering: transformation DataFrame
-preliminary feature selection: drop the measurementID & Location ID because they are just identified ID without useful information
-- 3 Description of how data was split into training and testing sets
-- 4 Explanation of model choice, including limitations and benefits
+preliminary feature selection: drop the measurementID & Location ID because they are just identified ID without useful information.
+
+- 3). Description of how data was split into training and testing sets
+- 4). Explanation of model choice, including limitations and benefits
 ### Benefits of Multiple Neuron Neural Network
 Advantages to adding neurons to our hidden layer in a neural network:
 - There is a distributed effort to find optimal weights—faster.
