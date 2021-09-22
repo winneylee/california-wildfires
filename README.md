@@ -94,6 +94,8 @@ The model -> fit -> predict/transform workflow is also used when scaling data. T
 - Preliminary feature selection: Drop the Location ID because they are just identified ID without useful information.
 
 ### Description of how data was split into training and testing sets
+Train_test_split() function has been executed and the data is split into a 75-25 split of the original data set. By default, our training and testig data sets are 75% and 25%.
+
 ### Explanation of model choice, including limitations and benefits
 
 - Benefits of Multiple Neuron Neural Network to add neurons to the hidden layers: 
