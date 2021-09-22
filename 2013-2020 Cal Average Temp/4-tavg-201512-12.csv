@@ -1,0 +1,62 @@
+January - December 2015 California County Average Temperature
+Units: Degrees Fahrenheit
+Missing: -99,Rank out of 126 Years
+"Location ID","Location","Value","Rank","Anomaly (1901-2000 base period)","1901-2000 Mean"
+CA-001,"Alameda County",61.0,124,3.2,57.8
+CA-003,"Alpine County",46.3,124,3.1,43.2
+CA-005,"Amador County",60.4,124,3.1,57.3
+CA-007,"Butte County",62.0,124,3.2,58.8
+CA-009,"Calaveras County",60.6,124,3.0,57.6
+CA-011,"Colusa County",63.9,124,3.5,60.4
+CA-013,"Contra Costa County",62.0,124,3.2,58.8
+CA-015,"Del Norte County",54.7,125,3.9,50.8
+CA-017,"El Dorado County",56.3,124,3.0,53.3
+CA-019,"Fresno County",57.6,125,3.2,54.4
+CA-021,"Glenn County",62.6,125,3.3,59.3
+CA-023,"Humboldt County",56.5,125,3.5,53
+CA-025,"Imperial County",75.9,124,3.7,72.2
+CA-027,"Inyo County",62.4,121,2.8,59.6
+CA-029,"Kern County",63.8,125,3.3,60.5
+CA-031,"Kings County",65.6,124,3.2,62.4
+CA-033,"Lake County",59.9,125,3.6,56.3
+CA-035,"Lassen County",49.7,125,3.6,46.1
+CA-037,"Los Angeles County",64.1,125,4.2,59.9
+CA-039,"Madera County",58.4,125,3.2,55.2
+CA-041,"Marin County",58.3,125,3.5,54.8
+CA-043,"Mariposa County",57.5,124,3.0,54.5
+CA-045,"Mendocino County",58.0,125,3.1,54.9
+CA-047,"Merced County",64.0,125,3.0,61
+CA-049,"Modoc County",49.8,126,4.2,45.6
+CA-051,"Mono County",46.4,124,3.2,43.2
+CA-053,"Monterey County",60.8,125,3.6,57.2
+CA-055,"Napa County",61.6,124,3.4,58.2
+CA-057,"Nevada County",54.8,125,3.1,51.7
+CA-059,"Orange County",67.0,126,4.7,62.3
+CA-061,"Placer County",56.0,125,3.0,53
+CA-063,"Plumas County",50.0,125,3.2,46.8
+CA-065,"Riverside County",70.0,121,3.2,66.8
+CA-067,"Sacramento County",64.1,124,3.0,61.1
+CA-069,"San Benito County",61.1,125,3.6,57.5
+CA-071,"San Bernardino County",68.1,122,3.1,65
+CA-073,"San Diego County",64.9,124,3.7,61.2
+CA-075,"San Francisco County",59.4,125,3.6,55.8
+CA-077,"San Joaquin County",63.9,124,3.1,60.8
+CA-079,"San Luis Obispo County",61.4,124,3.5,57.9
+CA-081,"San Mateo County",59.2,125,3.8,55.4
+CA-083,"Santa Barbara County",61.2,125,4.6,56.6
+CA-085,"Santa Clara County",60.4,125,3.5,56.9
+CA-087,"Santa Cruz County",60.1,125,4.4,55.7
+CA-089,"Shasta County",58.0,126,3.7,54.3
+CA-091,"Sierra County",49.7,124,3.3,46.4
+CA-093,"Siskiyou County",51.9,126,4.1,47.8
+CA-095,"Solano County",62.8,124,3.1,59.7
+CA-097,"Sonoma County",59.4,125,3.3,56.1
+CA-099,"Stanislaus County",63.1,122,2.7,60.4
+CA-101,"Sutter County",65.0,124,3.1,61.9
+CA-103,"Tehama County",61.3,125,3.4,57.9
+CA-105,"Trinity County",55.6,126,4.0,51.6
+CA-107,"Tulare County",56.2,125,3.0,53.2
+CA-109,"Tuolumne County",52.5,124,2.8,49.7
+CA-111,"Ventura County",60.7,125,4.7,56
+CA-113,"Yolo County",63.9,124,3.0,60.9
+CA-115,"Yuba County",63.0,125,3.1,59.9

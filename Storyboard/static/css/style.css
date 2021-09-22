@@ -1,0 +1,9 @@
+body {
+    color: #422f2f;
+}
+
+.jumbotron {
+    background-image: url("../images/Calwildfire.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+}
