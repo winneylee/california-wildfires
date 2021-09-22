@@ -103,6 +103,6 @@ There is a distributed effort to find optimal weights—faster. Each neuron can 
 The neurons to our neural network model can't been always use the maximum number because Overfitting and computation resurces. Additionally, a neural network model with a large number of neurons requires equally large training dataset—training a large neural network requires more data, more epochs, and more time.
 
 **Week Three**
-Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
-Description of how they have trained the model thus far, and any additional training that will take place
-Description of current accuracy score
+- Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
+- Description of how they have trained the model thus far, and any additional training that will take place
+- Description of current accuracy score
