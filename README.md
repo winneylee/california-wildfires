@@ -10,6 +10,15 @@ The focus of this project will be on California wildfires.
 ## Why Wildfires?
 This topic was chosen to gauge what we may experience in the next upcoming fire season. As the summer comes to a close, it's important to analyze the past fire data and current precipitation measurements and temperature to get a hollistic view of what we may experience in the next upcoming fire season.
 
+## Programming Languages
+Python, SQL, HTML, JavaScript, CSS
+
+## Libraries
+scikitlearn, pandas, numpy, mapbox, leaflet
+
+## Software
+Jupyter Notebook, pgAdmin 4, Tableau
+
 ## High-Level Overview
 Our goal is to first determine the most susceptible wildfire areas by looking at the largest fires in recent years. From these data, we can see that there are some areas that are more susceptible to fire danger. In these areas, it's important to share fire awareness. Everyone needs to understand that it's a communal effort that makes a difference.  It's really important to clear out dead leaves and brush, for example. Another idea is to make sure campfires are put out properly.  These are simple yet necessary ideas on prevention. Unfortunately, there are always some unexpected incidents that may arise, for example, the lighting fireworks and random lightning strikes. However, in looking at the data, we can utilize a model to help predict if/when our next fires may occur. This way firefighters can take a more proactive approach in combating issues that may occur.
 
@@ -58,7 +67,9 @@ A provisional database was created that includes sample data that mimics the exp
 ![Provisional DataFrame](./Resources/fire_data.jpg)
 
 ## Machine Learning Model
+
 **Week One**
+
 The provisional machine learning model (*as shown in* fire_analysis.ipynb) that we created is a draft for the final machine learning model. This provisional model (1) takes in data from the provisional database, which includes data from the Kaggle Wildfires (2013-2020) dataset shown above and (2) outputs county labels for the wildfire input data sourced from our datasets. The trained model came out at 98.31% accuracy.
 
 ![Provisional Model](./Resources/model.jpg)
