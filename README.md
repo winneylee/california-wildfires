@@ -68,10 +68,10 @@ The provisional machine learning model (*as shown in* fire_analysis.ipynb) that 
 ### Preliminary data preprocessing
 Machine learning algorithms typically only work with numerical data. Categorical and text data must therefore be converted to numerical data for use.
 - Encoding text labels into numerical values using pd.get_dummies() for "county" columns.
-- 
+
  Machine learning algorithms typically only work with numerical data. Categorical and text data must therefore be converted to numerical data for use.
  We will split county column into two columns. If county belong to south area, the column will read 1, and county belong to north area, the column will read 0.
- (or we can cretae a dictionary of the county in the California and apply a custom function to convert the county names to their corresponding integers by using label_encoder and Lambda function.)
+(or we can cretae a dictionary of the county in the California and apply a custom function to convert the county names to their corresponding integers by using label_encoder and Lambda function.)
  
 - Scaling or normalizing data is another preprocessing step by using Scikit-learn's StandardScaler module.
 
@@ -79,13 +79,13 @@ The model -> fit -> predict/transform workflow is also used when scaling data. T
 
 ### Preliminary feature engineering and preliminary feature selection, including the decision-making process
 
-- preliminary feature engineering: transformation DataFrame.
-- preliminary feature selection: drop the measurementID & Location ID because they are just identified ID without useful information.
+- Preliminary feature engineering: Transformation DataFrame.
+- Preliminary feature selection: Drop the measurementID & Location ID because they are just identified ID without useful information.
 
 ### Description of how data was split into training and testing sets
 ### Explanation of model choice, including limitations and benefits
 - Benefits of Multiple Neuron Neural Network
-Advantages to adding neurons to our hidden layer in a neural network:
+ Advantages to adding neurons to our hidden layer in a neural network:
 - There is a distributed effort to find optimal weights—faster.
 - Each neuron can focus on different features to identify nonlinear effects—smarter.
 - It is less likely to fixate on complex variables—more robust.
