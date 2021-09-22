@@ -69,6 +69,7 @@ A provisional database was created that includes sample data that mimics the exp
 
 ## Machine Learning Model
 **Week One**
+
 The provisional machine learning model (*as shown in* fire_analysis.ipynb) that we created is a draft for the final machine learning model. This provisional model (1) takes in data from the provisional database, which includes data from the Kaggle Wildfires (2013-2020) dataset shown above and (2) outputs county labels for the wildfire input data sourced from our datasets. The trained model came out at 98.31% accuracy.
 
 ![Provisional Model](./Resources/model.jpg)
@@ -93,6 +94,8 @@ The model -> fit -> predict/transform workflow is also used when scaling data. T
 - Preliminary feature selection: Drop the Location ID because they are just identified ID without useful information.
 
 ### Description of how data was split into training and testing sets
+Train_test_split() function has been executed and the data is split into a 75-25 split of the original data set. By default, our training and testig data sets are 75% and 25%.
+
 ### Explanation of model choice, including limitations and benefits
 
 - Benefits of Multiple Neuron Neural Network to add neurons to the hidden layers: 
@@ -100,3 +103,8 @@ There is a distributed effort to find optimal weights—faster. Each neuron can 
 
 - Limitation of Multiple Neuron Neural Network:
 The neurons to our neural network model can't been always use the maximum number because Overfitting and computation resurces. Additionally, a neural network model with a large number of neurons requires equally large training dataset—training a large neural network requires more data, more epochs, and more time.
+
+**Week Three**
+- Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
+- Description of how they have trained the model thus far, and any additional training that will take place
+- Description of current accuracy score
