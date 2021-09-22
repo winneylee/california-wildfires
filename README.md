@@ -90,7 +90,7 @@ The model -> fit -> predict/transform workflow is also used when scaling data. T
 ### Preliminary feature engineering and preliminary feature selection, including the decision-making process
 
 - Preliminary feature engineering: Transformation DataFrame.
-- Preliminary feature selection: Drop the & Location ID because they are just identified ID without useful information.
+- Preliminary feature selection: Drop the Location ID because they are just identified ID without useful information.
 
 ### Description of how data was split into training and testing sets
 ### Explanation of model choice, including limitations and benefits
