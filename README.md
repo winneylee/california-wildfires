@@ -66,7 +66,7 @@ The provisional machine learning model (*as shown in* fire_analysis.ipynb) that 
 **Week Two**
 
 ### Preliminary data preprocessing
-Machine learning algorithms typically only work with numerical data. Categorical and text data must therefore be converted to numerical data for use.
+
 - Encoding text labels into numerical values using pd.get_dummies() for "county" columns.
 
  Machine learning algorithms typically only work with numerical data. Categorical and text data must therefore be converted to numerical data for use.
@@ -84,11 +84,9 @@ The model -> fit -> predict/transform workflow is also used when scaling data. T
 
 ### Description of how data was split into training and testing sets
 ### Explanation of model choice, including limitations and benefits
-- Benefits of Multiple Neuron Neural Network
- Advantages to adding neurons to our hidden layer in a neural network:
-- There is a distributed effort to find optimal weights—faster.
-- Each neuron can focus on different features to identify nonlinear effects—smarter.
-- It is less likely to fixate on complex variables—more robust.
 
-- Limitation of Multiple Neuron Neural Network
+- Benefits of Multiple Neuron Neural Network to add neurons to the hidden layers: 
+There is a distributed effort to find optimal weights—faster. Each neuron can focus on different features to identify nonlinear effects—smarter. It is less likely to fixate on complex variables—more robust.
+
+- Limitation of Multiple Neuron Neural Network:
 The neurons to our neural network model can't been always use the maximum number because Overfitting and computation resurces. Additionally, a neural network model with a large number of neurons requires equally large training dataset—training a large neural network requires more data, more epochs, and more time.
