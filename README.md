@@ -65,23 +65,30 @@ The provisional machine learning model (*as shown in* fire_analysis.ipynb) that 
 
 **Week Two**
 
-- 1). Description of preliminary data preprocessing
--
-Data clean up, handle missing value
-encode our categorical variables using Scikit-Learn's OneHotEncoder class.
+### Preliminary data preprocessing
+Machine learning algorithms typically only work with numerical data. Categorical and text data must therefore be converted to numerical data for use.
+- Encoding text labels into numerical values using pd.get_dummies() for "county" columns.
+- 
+ Machine learning algorithms typically only work with numerical data. Categorical and text data must therefore be converted to numerical data for use.
+ We will split county column into two columns. If county belong to south area, the column will read 1, and county belong to north area, the column will read 0.
+ (or we can cretae a dictionary of the county in the California and apply a custom function to convert the county names to their corresponding integers by using label_encoder and Lambda function.)
+ 
+- Scaling or normalizing data is another preprocessing step by using Scikit-learn's StandardScaler module.
 
-- 2). Description of preliminary feature engineering and preliminary feature selection, including the decision-making process
+The model -> fit -> predict/transform workflow is also used when scaling data. The standard scaler standardizes the data. This means that each feature will be rescaled so that its mean is 0 and its standard deviation is 1, which will reduce the likeligood that large values will unduly influence the model.
 
-preliminary feature engineering: transformation DataFrame
-preliminary feature selection: drop the measurementID & Location ID because they are just identified ID without useful information.
+### Preliminary feature engineering and preliminary feature selection, including the decision-making process
 
-- 3). Description of how data was split into training and testing sets
-- 4). Explanation of model choice, including limitations and benefits
-### Benefits of Multiple Neuron Neural Network
+- preliminary feature engineering: transformation DataFrame.
+- preliminary feature selection: drop the measurementID & Location ID because they are just identified ID without useful information.
+
+### Description of how data was split into training and testing sets
+### Explanation of model choice, including limitations and benefits
+- Benefits of Multiple Neuron Neural Network
 Advantages to adding neurons to our hidden layer in a neural network:
 - There is a distributed effort to find optimal weights—faster.
 - Each neuron can focus on different features to identify nonlinear effects—smarter.
 - It is less likely to fixate on complex variables—more robust.
 
-### Limitation of Multiple Neuron Neural Network
+- Limitation of Multiple Neuron Neural Network
 The neurons to our neural network model can't been always use the maximum number because Overfitting and computation resurces. Additionally, a neural network model with a large number of neurons requires equally large training dataset—training a large neural network requires more data, more epochs, and more time.
