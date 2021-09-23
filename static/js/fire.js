@@ -1454,25 +1454,28 @@ let fires = [{"MeasurementID":"2013-10-CA-007-305","AcresBurned":"305","Location
 {"MeasurementID":"2019-9-CA-105-280","AcresBurned":"280","LocationID":"CA-105","Latitude":"41.150392","Longitude":"-122.634108","Month":"9","Year":"2019","Location":"Trinity"},
 {"MeasurementID":"2019-9-CA-107-381","AcresBurned":"381","LocationID":"CA-107","Latitude":"36.151","Longitude":"-118.185","Month":"9","Year":"2019","Location":"Tulare"},
 {"MeasurementID":"2019-9-CA-109-83","AcresBurned":"83","LocationID":"CA-109","Latitude":"37.838333","Longitude":"-120.625556","Month":"9","Year":"2019","Location":"Tuolumne"},
-{"MeasurementID":"2019-9-CA-111-279","AcresBurned":"279","LocationID":"CA-111","Latitude":"34.71011","Longitude":"-119.3547","Month":"9","Year":"2019","Location":"Ventura"}]
+{"MeasurementID":"2019-9-CA-111-279","AcresBurned":"279","LocationID":"CA-111","Latitude":"34.71011","Longitude":"-119.3547","Month":"9","Year":"2019","Location":"Ventura"}];
 
-function fetchLatLong(){
-//Outer loop to get the dataList
-for (f = 0; f < fires.count; f++){
-    var dataList = fires[f];
-    var latitude = "";
-    var longitude = "";
-    //Inner loop to get the data in the list
-    for (key in dataList) {
-        if (key == "Latitude") {
-            latitude = dataList[key];
-        }else if (key == "Longitude") {
-                longitude = dataList[key]
-        }
-    }
-    //print
-    console.log("["+latitude+","+longitude+"]");
+function fetchLatLong(fires){
     
+    //Outer loop to get the dataList
+    for (f = 0; f < fires.length; f++){
+        var dataList = fires[f];
+        var latitude = "";
+        var longitude = "";
+        
+        //Inner loop to get the data in the list
+        for (key in dataList) {
+            if (key == "Latitude") {
+                latitude = dataList[key];
+            }else if (key == "Longitude") {
+                    longitude = dataList[key]
+            }
+        }
+        //print
+        console.log("["+latitude+","+longitude+"]");
+
+    }
 }
-}
-console.log(fetchLatLong());
+
+fetchLatLong(fires);
