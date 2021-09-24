@@ -1,4 +1,4 @@
-UniqueID,MeasurementID,AcresBurned,Latitude,Longitude,Month,Year,LocationID,Location,Value,MinTemp,MaxTemp,AvgTemp
+UniqueID,MeasurementID,AcresBurned,Latitude,Longitude,Month,Year,LocationID,Location,Rainfall,MinTemp,MaxTemp,AvgTemp
 2013-7-CA-001-38,2013-CA-001,38,37.74241,-121.86216,7,2013,CA-001,Alameda,5.08,48.2,70.8,59.5
 2013-6-CA-001-240,2013-CA-001,240,37.775057,-121.737213,6,2013,CA-001,Alameda,5.08,48.2,70.8,59.5
 2013-7-CA-001-50,2013-CA-001,50,37.7393,-121.5869,7,2013,CA-001,Alameda,5.08,48.2,70.8,59.5
