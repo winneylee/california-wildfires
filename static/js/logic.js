@@ -25,4 +25,5 @@ let fireData = fire;
 fireData.forEach(function(fire) {
   console.log(fire)
   L.marker(fire.coordinates).addTo(map);
+    radius = fire.AcresBurned*1000
 });
