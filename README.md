@@ -108,3 +108,12 @@ The neurons to our neural network model can't been always use the maximum number
 - Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
 - Description of how they have trained the model thus far, and any additional training that will take place
 - Description of current accuracy score
+
+**Week Four**
+Description of data preprocessing
+Description of feature engineering and the feature selection, including the decision-making process
+Description of how data was split into training and testing sets
+Explanation of model choice, including limitations and benefits
+Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
+Description of how the model was trained (or retrained, if the team is using an existing model)
+Description and explanation of model's confusion matrix, including final accuracy score
