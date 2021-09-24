@@ -81,7 +81,7 @@ The provisional machine learning model (*as shown in* fire_analysis.ipynb) that 
 - Encoding text labels into numerical values using pd.get_dummies() for "county" columns.
 
  Machine learning algorithms typically only work with numerical data. Categorical and text data must therefore be converted to numerical data for use.
- We will split county column into two columns. If county belong to south area, the column will read 1, and county belong to north area, the column will read 0.
+ We will split county column into two columns. If county belong to the specific county, the column will read 1; for the rest of the counties, the column will read 0.
 (or we can cretae a dictionary of the county in the California and apply a custom function to convert the county names to their corresponding integers by using label_encoder and Lambda function.)
  
 - Scaling or normalizing data is another preprocessing step by using Scikit-learn's StandardScaler module.
@@ -97,6 +97,7 @@ The model -> fit -> predict/transform workflow is also used when scaling data. T
 Train_test_split() function has been executed and the data is split into a 75-25 split of the original data set. By default, our training and testig data sets are 75% and 25%.
 
 ### Explanation of model choice, including limitations and benefits
+A multi-layer neural network contains more than one 
 
 - Benefits of Multiple Neuron Neural Network to add neurons to the hidden layers: 
 There is a distributed effort to find optimal weights—faster. Each neuron can focus on different features to identify nonlinear effects—smarter. It is less likely to fixate on complex variables—more robust.
@@ -110,10 +111,11 @@ The neurons to our neural network model can't been always use the maximum number
 - Description of current accuracy score
 
 **Week Four**
-Description of data preprocessing
-Description of feature engineering and the feature selection, including the decision-making process
-Description of how data was split into training and testing sets
-Explanation of model choice, including limitations and benefits
-Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
-Description of how the model was trained (or retrained, if the team is using an existing model)
-Description and explanation of model's confusion matrix, including final accuracy score
+- Description of data preprocessing
+- Description of feature engineering and the feature selection, including the decision-making process
+- Description of how data was split into training and testing sets
+- Explanation of model choice, including limitations and benefits
+- Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
+- Description of how the model was trained (or retrained, if the team is using an existing model)
+- Description and explanation of model's confusion matrix, including final accuracy score
+The final loss is 79% and accuracy is 87%.
