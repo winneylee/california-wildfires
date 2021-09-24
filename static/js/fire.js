@@ -1456,6 +1456,9 @@ let fires = [{"MeasurementID":"2013-10-CA-007-305","AcresBurned":"305","Location
 {"MeasurementID":"2019-9-CA-109-83","AcresBurned":"83","LocationID":"CA-109","Latitude":"37.838333","Longitude":"-120.625556","Month":"9","Year":"2019","Location":"Tuolumne"},
 {"MeasurementID":"2019-9-CA-111-279","AcresBurned":"279","LocationID":"CA-111","Latitude":"34.71011","Longitude":"-119.3547","Month":"9","Year":"2019","Location":"Ventura"}];
 
+// Define empty array, which will have many objects (dicitonaries) for each file
+fireArray = [];
+
 function fetchLatLong(fires){
     
     //Outer loop to get the dataList
@@ -1472,10 +1475,14 @@ function fetchLatLong(fires){
                     longitude = dataList[key]
             }
         }
-        //print
-        console.log("["+latitude+","+longitude+"]");
+
+        // append object to list
+        fireArray.push({
+            key:    "Fire " + f,
+            coordinates:  [latitude, longitude]
+        });
 
     }
 }
-
+console.log(fireArray);
 fetchLatLong(fires);
