@@ -97,7 +97,7 @@ The model -> fit -> predict/transform workflow is also used when scaling data. T
 Train_test_split() function has been executed and the data is split into a 75-25 split of the original data set. By default, our training and testig data sets are 75% and 25%.
 
 ### Explanation of model choice, including limitations and benefits
-A multi-layer neural network contains more than one 
+A multi-layer neural network contains more than one layer of artificial neurons or nodes. Single-layer neural networks were useful early in the evolution of AI, the majority of networks used today have a multi-layer model.
 
 - Benefits of Multiple Neuron Neural Network to add neurons to the hidden layers: 
 There is a distributed effort to find optimal weights—faster. Each neuron can focus on different features to identify nonlinear effects—smarter. It is less likely to fixate on complex variables—more robust.
