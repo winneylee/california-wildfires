@@ -78,20 +78,21 @@ The provisional machine learning model (*as shown in* fire_analysis.ipynb) that 
 
 ### Preliminary data preprocessing
 
-- Encoding text labels into numerical values using pd.get_dummies() for "county" columns.
+- Encoding text labels into numerical values using pd.get_dummies() for "Location" columns.
 
  Machine learning algorithms typically only work with numerical data. Categorical and text data must therefore be converted to numerical data for use.
  We will split county column into two columns. If county belong to the specific county, the column will read 1; for the rest of the counties, the column will read 0.
-(or we can cretae a dictionary of the county in the California and apply a custom function to convert the county names to their corresponding integers by using label_encoder and Lambda function.)
  
 - Scaling or normalizing data is another preprocessing step by using Scikit-learn's StandardScaler module.
 
 The model -> fit -> predict/transform workflow is also used when scaling data. The standard scaler standardizes the data. This means that each feature will be rescaled so that its mean is 0 and its standard deviation is 1, which will reduce the likeligood that large values will unduly influence the model.
 
+
+
 ### Preliminary feature engineering and preliminary feature selection, including the decision-making process
 
 - Preliminary feature engineering: Transformation DataFrame.
-- Preliminary feature selection: Drop the Location ID because they are just identified ID without useful information.
+- Preliminary feature selection: Drop the "Location ID", "MeasurementID", and "UniqueID" because they are just identified ID without useful information.
 
 ### Description of how data was split into training and testing sets
 Train_test_split() function has been executed and the data is split into a 75-25 split of the original data set. By default, our training and testig data sets are 75% and 25%.
