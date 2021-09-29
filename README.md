@@ -32,7 +32,7 @@ The hyperlink above includes a dataset on monthly precipitation as well as mean/
 ## Team Member Roles
 There were four roles to be assumed by the members of our group, which was comprised of 5 members -- Jinfang Li, Wendy Mudzinski, Stephen Tan, Rachel Tsuchiyama, and Cassie Xu. The roles and descriptions for this project are:
 
-**Week One**
+**Segment One**
 - **Square** - *The team member in the square role will be responsible for the repository.*
     - Stephen
 - **Triangle** - *Transform the mockup database into a full database that integrates with your work*
@@ -42,7 +42,7 @@ There were four roles to be assumed by the members of our group, which was compr
 - **X** - *decides which technologies to use for each step of the project* 
     - No one assumed this role since we all contributed equally
 
-**Week Two**
+**Segment Two (Part 1)**
 - **Square** - *Refine the machine learning model you'll be using (train and test).*
     - Cassie
 - **Triangle** - *Transform the mockup database into a full database that integrates with your work.*
@@ -52,15 +52,26 @@ There were four roles to be assumed by the members of our group, which was compr
 - **X** - *Outline and begin work on a dashboard to house your final project. Check and test the work completed against the rubric* 
     - Wendy, Jinfang
     
- **Week Three**
-- **Square** - *Complete peer reviews on the code*
+ **Segment Two (Part 2)**
+- **Square** - *Complete peer reviews on the code.*
     - Cassie
-- **Triangle** - *Create a draft presentation to share with your class*
+- **Triangle** - *Create a draft presentation to share with your class.*
     - Rachel
-- **Circle** - *Create a dashboard to display your findings*
+- **Circle** - *Create a dashboard to display your findings.*
     - Stephen
 - **X** - *Perform a quality assurance check on project deliverables against rubric requirements, and test the code.* 
     - Wendy, Jinfang
+
+**Segment Three**
+- **Square** - *Complete peer reviews on the code.*
+- 
+- **Triangle** - *Create a draft presentation to share with your class.*
+- 
+- **Circle** - *Create a dashboard to display your findings.*
+- 
+- **X** -*Perform a quality assurance check on project deliverables against rubric requirements, and test the code.*
+- 
+
 ----------
 
 ## Database
